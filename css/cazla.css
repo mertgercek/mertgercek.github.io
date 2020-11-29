@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
