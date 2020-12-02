@@ -102,4 +102,12 @@ body{
     padding-right:3rem;
     padding-left:3rem;
   }
+	.content-desktop {display: block;}
+    .content-mobile {display: none;}
+
+    @media screen and (max-width: 768px) {
+
+   
+
+    }
 }
