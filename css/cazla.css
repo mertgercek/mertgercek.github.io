@@ -6,4 +6,46 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+	background-color: #D3D7F1
 }
+
+.body {
+	background-color: #444655
+		}
+.container {
+	background-color: #4170d8
+		}
+.footer-index {
+  font-size:20px;
+	font-family: "Segoe UI";
+	
+}
+.border-10{
+border-style:solid;
+ border-width: 10px;
+}
+.border-5{
+border-style:solid;
+ border-width: 5px;
+}
+a:link {
+  color: #444655;
+	font-weight: bold;
+	}
+
+a:visited {
+  color: #061E55;
+	}
+a:hover {
+  color: #70B7F1;
+}
+*{
+font-family: "Segoe UI";
+	font-weight: 600;
+	}
+hr {
+	height: 5px;
+	background: #444655;
+	border-radius: 25px;
+}
+
