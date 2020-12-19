@@ -6,19 +6,19 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
-	background-color: #D3D7F1;
+	background-color: #202021;
 			color: #c6c7c8;
 }
 
 .body {
-	background-color: #000103;
+	background-color: #111112;
 	color: #c6c7c8;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
 	
 		}
 .container {
-	background-color: #303132;
+	background-color: #1E1F1F;
 		color: #c6c7c8
 		}
 .footer-index {
@@ -40,7 +40,7 @@ a:link {
 	}
 
 a:visited {
-  color: #061E55;
+  color: #2C498A;
 	}
 a:hover {
   color: #0080E9;
@@ -59,6 +59,6 @@ hr {
 }
 .figure-caption {
 	font-size: 15px;
-	color: #212529;
+	color: #c6c7c8;
 	
 } 
