@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kaç Dansöz Var?</title>
+<link rel="shortcut icon" type="image/png" href="images/saxlogo16x16.png"/>	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<style type="text/css">
+body,td,th {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin-left: 0px;
+}
+</style>
+
+<link href="binlerce.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="v-header container">
+	
+    <div class="fullscreen-video-wrap">
+      <video id="myVideo">
+        <source src="100lerce.mp4" type="video/mp4">
+      </video>
+  </div>
+	
+    <div class="header-overlay">
+	</div>
+  <div class="header-content text-md-center">
+      <h1>SORU</h1>
+    <p>&nbsp;&nbsp;&nbsp;ünlü türk düşünür serdar ortaç'a göre dansözler evreninde ve dünyamızda &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>kaç dansöz vardır?</b> </p>
+    <a class="btn" role="button" id="123" href="#" onClick="myFunction()" value="10larca">10larca</a>
+	  <a class="btn" role="button" id="1233" href="#" onClick="myFunction2()" value="100lerce">100lerce</a>
+		
+	<a href="#" class="btn" role="button" id="1234" onClick="playVid(); myFunction4()">1000lerce</a>
+<a class="btn" role="button" id="12333" href="#" onClick="myFunction3()" value="10000lerce">10000lerce</a>
+
+		
+
+	   
+
+    </div>
+	
+	
+	
+</header>
+	
+<script>
+	document.getElementsByTagName('video')[0].volume = 0.5;
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	function myFunction() {
+
+                var btn = document.getElementById("123");
+
+                if (btn.value == "10larca") {
+                    btn.value = "10larca";
+                    btn.innerHTML = "10larca";
+                }
+                else {
+                    btn.value = "Yanlış Tekrar Dene!";
+                    btn.innerHTML = "Yanlış Tekrar Dene!";
+                }
+
+            }
+	function myFunction2() {
+
+                var btn = document.getElementById("1233");
+
+                if (btn.value == "İzin ver") {
+                    btn.value = "Close Curtain";
+                    btn.innerHTML = "Close Curtain";
+                }
+                else {
+                    btn.value = "Yanlış Tekrar Dene!";
+                    btn.innerHTML = "Yanlış Tekrar Dene!";
+                }
+
+            }
+	function myFunction3() {
+
+                var btn = document.getElementById("12333");
+
+                if (btn.value == "İzin ver") {
+                    btn.value = "Close Curtain";
+                    btn.innerHTML = "Close Curtain";
+                }
+                else {
+                    btn.value = "Yanlış Tekrar Dene!";
+                    btn.innerHTML = "Yanlış Tekrar Dene!";
+                }
+
+            }
+
+	function myFunction4() {
+
+                var btn = document.getElementById("1234");
+
+                if (btn.value == "1000lerce") {
+                    btn.value = "1000lerce";
+                    btn.innerHTML = "1000lerce";
+                }
+                else {
+                    btn.value = "DOĞRU!";
+                    btn.innerHTML = "DOĞRU!";
+                }
+
+            }
+	
+	
+	
+	</script>
+	
+	
+
+
+
+</body>
+</html>
